@@ -1,0 +1,52 @@
+@import url(../font/font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Aeonik', sans-serif !important;
+    overflow: hidden;
+    background-image: url();
+    background-position: center;
+    background-size: 175%;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-attachment: fixed;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #000000;
+}
+
+#hello{
+    margin-top: 1.5rem;
+    margin-left: 1.6rem;
+}
+
+.card{
+    height: 45vh !important;
+    border: none;
+    border-radius: 10px !important;
+}
+
+#tiles{
+background: rgba(255, 255, 255, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+}
+
+#tiles:hover{
+    transition: 0.3s all ease;
+    background: rgba(255, 255, 255, 0.57);
+
+}
